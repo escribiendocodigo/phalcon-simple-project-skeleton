@@ -31,8 +31,9 @@
     "scripts": {
         "post-create-project-cmd": [
             "@php -r '$dir = \"{.[!.],}*/\"; array_map(\"unlink\", glob(\"./{,$dir,$dir$dir,$dir$dir$dir}.gitkeep\", GLOB_BRACE));'"
-        ],    
+        ],
         "serve": [
+            "Composer\\Config::disableProcessTimeout",
             "php -S 0.0.0.0:8080 -t public"
         ]
     }

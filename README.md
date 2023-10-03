@@ -16,7 +16,7 @@ Once installed, you can test it out immediately using PHP's built-in web server:
 
 ```bash
 cd my-project
-php -S 0.0.0.0:9000 -t public
+php -S 0.0.0.0:8000 -t public
 # OR use the composer alias:
 composer serve
 ```
@@ -33,5 +33,5 @@ Once installed, you can test it out immediately using PHP's built-in web server:
 
 ```bash
 cd my-project
-php -S 0.0.0.0:9000 -t public
+php -S 0.0.0.0:8000 -t public
 ```

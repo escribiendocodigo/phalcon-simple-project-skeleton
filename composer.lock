@@ -9,16 +9,16 @@
     "packages-dev": [
         {
             "name": "phalcon/ide-stubs",
-            "version": "v5.3.1",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/ide-stubs.git",
-                "reference": "ec3c12fde7a81795a2638e98f202341ffcde2de3"
+                "reference": "7e4560a5f0d2f67f5e20432ad9b5aba1530fd7f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/ec3c12fde7a81795a2638e98f202341ffcde2de3",
-                "reference": "ec3c12fde7a81795a2638e98f202341ffcde2de3",
+                "url": "https://api.github.com/repos/phalcon/ide-stubs/zipball/7e4560a5f0d2f67f5e20432ad9b5aba1530fd7f2",
+                "reference": "7e4560a5f0d2f67f5e20432ad9b5aba1530fd7f2",
                 "shasum": ""
             },
             "require": {
@@ -72,7 +72,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-09-12T15:48:34+00:00"
+            "time": "2023-10-25T15:31:53+00:00"
         }
     ],
     "aliases": [],
@@ -86,5 +86,5 @@
         "ext-phalcon": "^5.0.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
